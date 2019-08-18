@@ -1,6 +1,7 @@
 Asteroid 👾☄️👨🏻‍🚀🚀   
 base idea from [mojombo](https://github.com/mojombo/asteroids)
-and [erkie](https://github.com/erkie/erkie.github.com)  
+and [erkie](https://github.com/erkie/erkie.github.com)        
+[marketplace](https://marketplace.visualstudio.com/items?itemName=arashmidos.asteriods)    
 
 # May Source B 🍁 U (destroy source)    
 ```shell
