@@ -11,15 +11,19 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.asteroid"
+        "onCommand:extension.asteroid",
+        "onCommand:extension.asteroid_web"
     ],
     "main": "./out/extension",
     "contributes": {
-       
         "commands": [
             {
                 "command": "extension.asteroid",
-                "title": "asteroid"
+                "title": "asteroid code 👩🏻‍💻 🚀 👨🏻‍💻"
+            },
+            {
+                "command": "extension.asteroid_web",
+                "title": "asteroid web  🌎 🚀 🌏"
             }
         ]
     },
@@ -31,10 +35,17 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "tslint": "^5.8.0",
+        "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "@types/vscode": "^1.37.0",
+        "tslint": "^5.8.0",
+        "typescript": "^2.6.1",
+        "vscode": "*"
+    },
+    "dependencies": {
+        "@types/node-fetch": "^2.5.0",
+        "fetch": "^1.1.0",
+        "node-fetch": "^2.6.0",
+        "vscode-test": "^1.2.0"
     }
 }
