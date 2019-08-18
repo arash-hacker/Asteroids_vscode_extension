@@ -2,7 +2,7 @@
     "name": "asteriods",
     "displayName": "asteriods",
     "description": "asteriod game vscode ",
-    "version": "0.0.2",
+    "version": "1.0.2",
     "publisher": "arashmidos",
     "icon": "utils/vscode-asteroid.png",
     "engines": {
