@@ -16,5 +16,5 @@ asteroid web ->  url to destory(with http|https)
 ![gif](2.gif)
 
 ## TODO
-[ ] - [link](https://github.com/microsoft/vscode/pull/66418)   
-[ ] - convert images to subimage svg
+ [ ] - [link](https://github.com/microsoft/vscode/pull/66418)   
+ [ ] - convert images to subimage svg
